@@ -1,14 +1,17 @@
 package poo;
 
 public class Principal {
+
+
     public static void main(String[] args) {
        //System.out.println("Olá");
 
-        Relogio relogio = new Relogio();
+        Relogio relogio = new Relogio(12, 8, 8);
 
-        relogio.setSec(70);
-        relogio.setMin(10);
-        relogio.setHora(10);
+//        relogio.setSec(12);
+//        relogio.setMin(80);
+//        relogio.setHora(15);
+
 
         System.out.println(relogio.toString());
     }
